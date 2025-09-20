@@ -1,6 +1,6 @@
 /*-- style --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
 
 * {
   margin: 0;
@@ -112,7 +112,7 @@ button:hover {
   padding-inline: 2rem;
   padding-block: 0.5rem;
 
-  background-color: #f7c9a7;
+  background-color: #dec09a;
 }
 #header-box {
   width: 100%;
@@ -148,7 +148,7 @@ button:hover {
 /*-- hero --*/
 
 #hero {
-  color: #ffc59c;
+  color: #dec09a;
 
   /* background-image: url(../img/bg/bg-01.png); */
   background-position: center;
@@ -222,7 +222,7 @@ button:hover {
   text-wrap: nowrap;
   overflow-x: hidden;
 
-  background-color: #fac9a7;
+  background-color: #dec09a;
 }
 
 #slogan span {
@@ -352,7 +352,7 @@ button:hover {
   align-items: center;
   gap: 1rem;
 
-  background-color: #f9d6ac;
+  background-color: #dec09a;
   border: solid 2px #f8a01c;
   border-radius: 1rem;
   padding: 2rem;
@@ -399,7 +399,7 @@ button:hover {
   border-radius: 1rem;
 
   color: var(--clr-2);
-  background-color:  #f9d6ac;
+  background-color: #dec09a;
   /* background-image: url(/img/bg/bg-01.png); */
   background-position: center;
   background-repeat: no-repeat;
@@ -415,7 +415,7 @@ button:hover {
   padding-bottom: 2rem;
   padding-inline: 2rem;
   color: var(--clr-2);
-  background-color: #ffd29a;
+  background-color: #dec09a;
 }
 #footer span {
   color: var(--clr-4);
@@ -441,4 +441,9 @@ button:hover {
 
 #footer-box > div img {
   height: 3rem;
+}
+#logo {
+  background: black;
+  border-radius: 50%;
+  border: none;
 }
